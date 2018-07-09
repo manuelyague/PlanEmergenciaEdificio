@@ -1,0 +1,9 @@
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/Libreria_de_clases/bin/Debug/netcoreapp2.0/Libreria_de_clases.deps.json
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/Libreria_de_clases/bin/Debug/netcoreapp2.0/Libreria_de_clases.dll
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/Libreria_de_clases/bin/Debug/netcoreapp2.0/Libreria_de_clases.pdb
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/Libreria_de_clases/obj/Debug/netcoreapp2.0/Libreria_de_clases.csprojResolveAssemblyReference.cache
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/Libreria_de_clases/obj/Debug/netcoreapp2.0/Libreria_de_clases.csproj.CoreCompileInputs.cache
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/Libreria_de_clases/obj/Debug/netcoreapp2.0/Libreria_de_clases.AssemblyInfoInputs.cache
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/Libreria_de_clases/obj/Debug/netcoreapp2.0/Libreria_de_clases.AssemblyInfo.cs
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/Libreria_de_clases/obj/Debug/netcoreapp2.0/Libreria_de_clases.dll
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/Libreria_de_clases/obj/Debug/netcoreapp2.0/Libreria_de_clases.pdb

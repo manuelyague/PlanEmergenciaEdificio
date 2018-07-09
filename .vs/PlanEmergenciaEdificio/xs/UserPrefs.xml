@@ -1,14 +1,16 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Libreria_de_clases/Class1.cs">
+﻿<Properties StartupConfiguration="{CFADF732-86B0-44F4-8CCC-EB14DFAED183}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Libreria_de_clases/Edificio.cs">
     <Files>
-      <File FileName="Libreria_de_clases/Class1.cs" Line="1" Column="1" />
+      <File FileName="Libreria_de_clases/Edificio.cs" Line="27" Column="5" />
+      <File FileName="PlanEmergencia/Program.cs" Line="13" Column="1" />
+      <File FileName="Libreria_de_clases/Testing.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.PlanEmergencia PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Libreria__de__clases FirstBuild="True" />
 </Properties>

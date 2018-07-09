@@ -1,0 +1,13 @@
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/PlanEmergencia/bin/Release/netcoreapp2.0/PlanEmergencia.deps.json
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/PlanEmergencia/bin/Release/netcoreapp2.0/PlanEmergencia.runtimeconfig.json
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/PlanEmergencia/bin/Release/netcoreapp2.0/PlanEmergencia.runtimeconfig.dev.json
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/PlanEmergencia/bin/Release/netcoreapp2.0/PlanEmergencia.dll
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/PlanEmergencia/bin/Release/netcoreapp2.0/PlanEmergencia.pdb
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/PlanEmergencia/obj/Release/netcoreapp2.0/PlanEmergencia.csprojResolveAssemblyReference.cache
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/PlanEmergencia/obj/Release/netcoreapp2.0/PlanEmergencia.csproj.CoreCompileInputs.cache
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/PlanEmergencia/obj/Release/netcoreapp2.0/PlanEmergencia.AssemblyInfoInputs.cache
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/PlanEmergencia/obj/Release/netcoreapp2.0/PlanEmergencia.AssemblyInfo.cs
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/PlanEmergencia/obj/Release/netcoreapp2.0/PlanEmergencia.dll
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/PlanEmergencia/obj/Release/netcoreapp2.0/PlanEmergencia.pdb
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/PlanEmergencia/bin/Release/netcoreapp2.0/Libreria_de_clases.dll
+/Volumes/SamsungUSB/Google Drive/Ingenieria/2018/04_TPC301-Taller de programación .NET/Projects/PlanEmergenciaEdificio/PlanEmergencia/bin/Release/netcoreapp2.0/Libreria_de_clases.pdb
