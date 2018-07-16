@@ -5,65 +5,31 @@ namespace Libreria_de_clases
 {
     public class Edificio
     {
-		private int [,,] _departamento;  
+        private int[,,] _departamento;
 
-		public Edificio()
-		{
-            _departamento = new int[0,0,0];
-		}
+        public Edificio()
+        {
+            _departamento = new int[0, 0, 0];
+        }
 
         public Edificio(int[,,] departamento)
-		{
+        {
             _departamento = departamento;
-		}
+        }
 
         public int[,,] Departamento { get => _departamento; set => _departamento = value; }
 
-		public string ObtenerDatos()
-		{
-			StringBuilder sb = new StringBuilder();
-            sb.AppendLine(ObtenerModeloEdificio());
-            sb.AppendLine(ObtenerDatosEdificio());
-			return sb.ToString();
-		}
-
-        private string ObtenerModeloEdificio()
+        public string ObtenerDatos()
         {
             StringBuilder sb = new StringBuilder();
-            int count = 0;
-            int piso = 1;
-
-            for (int y = 0; y < _departamento.GetLength(0); y++)
-            {
-                sb.AppendFormat("Piso {0} \n", piso++);
-                sb.AppendLine("         -------NORTE--------");
-                for (int x = 0; x < _departamento.GetLength(1); x++)
-                {
-                    count = 0;
-                    for (int z = 0; z < _departamento.GetLength(2); z++)
-                    {
-                        count++;
-                        if (count == 1)
-                            sb.Append("Oeste  | ");
-
-                        sb.AppendFormat("{0} ", _departamento[y, x, z].ToString());
-
-                        if (count == 9)
-                            sb.AppendLine(" |  Este \n");
-                    }
-                }
-                sb.AppendLine("         -------SUR----------");
-                sb.AppendLine("------------------------------------------------");
-            }
-
+            sb.AppendLine(ObtenerDatosEdificio());
             return sb.ToString();
         }
 
         private string ObtenerDatosEdificio()
         {
             StringBuilder sb = new StringBuilder();
-            int count = 0;
-            int piso = 1;
+            int piso = 0;
             int sumOeste = 0;
             int sumEste = 0;
             int sumNorte = 0;
@@ -72,54 +38,84 @@ namespace Libreria_de_clases
 
             for (int y = 0; y < _departamento.GetLength(0); y++)
             {
-                sb.AppendFormat("Piso {0} \n", piso++);
+                piso++;
                 for (int x = 0; x < _departamento.GetLength(1); x++)
                 {
-                    count = 0;
-                    if (pos.Equals("N"))
-                        pos = "S";
-                    else
-                        pos = "N";
-
                     for (int z = 0; z < _departamento.GetLength(2); z++)
                     {
-                        count++;
-
-                        switch (count)
+                        if (x == 0 && z == 1)
                         {
-                            case 1:
-                                sumOeste = sumOeste + _departamento[y, x, z];
-                                if (pos.Equals("S"))
-                                {
-                                    sb.AppendFormat("Total ocupantes lado Oeste: {0} \n", sumOeste);
-                                    sumOeste = 0;
-                                }
-                                break;
-                            case 9:
-                                sumEste = sumEste + _departamento[y, x, z];
-                                if (pos.Equals("S"))
-                                {
-                                    sb.AppendFormat("Total ocupantes lado Este: {0} \n", sumEste);
-                                    sumEste = 0;
-                                }
-                                break;
-                            default:
-                                if(pos.Equals("N")){
-                                    sumNorte = sumNorte + _departamento[y, x, z];
-                                    if (count == 8)
-                                    {
-                                        sb.AppendFormat("Total ocupantes lado Norte: {0} \n", sumNorte);
-                                        sumNorte = 0;
-                                    }
-                                }else if(pos.Equals("S")){
-                                    sumSur = sumSur + _departamento[y, x, z];
-                                    if (count == 8)
-                                    {
-                                        sb.AppendFormat("Total ocupantes lado Sur: {0} \n", sumSur);
-                                        sumSur = 0;
-                                    }
-                                }
-                                break;
+                            sumNorte = sumNorte + _departamento[y, x, z];
+                            sumOeste = sumOeste + _departamento[y, x, z];
+                        }
+                        if (x == 0 && z == 2)
+                            sumNorte = sumNorte + _departamento[y, x, z];
+                        if (x == 0 && z == 3)
+                            sumNorte = sumNorte + _departamento[y, x, z];
+                        if (x == 0 && z == 4)
+                            sumNorte = sumNorte + _departamento[y, x, z];
+                        if (x == 0 && z == 5)
+                            sumNorte = sumNorte + _departamento[y, x, z];
+                        if (x == 0 && z == 6)
+                            sumNorte = sumNorte + _departamento[y, x, z];
+                        if (x == 0 && z == 7)
+                        {
+                            sumNorte = sumNorte + _departamento[y, x, z];
+                            sumEste = sumEste + _departamento[y, x, z];
+                        }
+                        if (x == 0 && z == 8)
+                        {
+                            sumNorte = sumNorte + _departamento[y, x, z];
+                            sb.AppendFormat("Piso {0}, Total ocupantes lado Norte = {1} \n", piso, sumNorte);
+                            sumNorte = 0;
+                        }
+
+                        if (x == 1 && z == 1)
+                        {
+                            sumSur = sumSur + _departamento[y, x, z];
+                            sumOeste = sumOeste + _departamento[y, x, z];
+                        }
+                        if (x == 1 && z == 2)
+                        {
+                            sumSur = sumSur + _departamento[y, x, z];
+                            sumOeste = sumOeste + _departamento[y, x, z];
+                        }
+                        if (x == 1 && z == 3)
+                            sumSur = sumSur + _departamento[y, x, z];
+                        if (x == 1 && z == 4)
+                        {
+                            sumSur = sumSur + _departamento[y, x, z];
+                            sumEste = sumEste + _departamento[y, x, z];
+                        }
+                        if (x == 1 && z == 5)
+                        {
+                            sumSur = sumSur + _departamento[y, x, z];
+                            sumEste = sumEste + _departamento[y, x, z];
+                        }
+                        if (x == 1 && z == 6)
+                        {
+                            sumSur = sumSur + _departamento[y, x, z];
+                            sumEste = sumEste + _departamento[y, x, z];
+                        }
+                        if (x == 1 && z == 7)
+                        {
+                            sumSur = sumSur + _departamento[y, x, z];
+                            sumEste = sumEste + _departamento[y, x, z];
+                        }
+                        if (x == 1 && z == 8)
+                        {
+                            sumSur = sumSur + _departamento[y, x, z];
+                            sumEste = sumEste + _departamento[y, x, z];
+                        }
+
+                        if (x == 1 && z == 8)
+                        {
+                            sb.AppendFormat("Piso {0}, Total ocupantes lado Sur = {1} \n", piso, sumSur);
+                            sumSur = 0;
+                            sb.AppendFormat("Piso {0}, Total ocupantes lado Oeste = {1} \n", piso, sumOeste);
+                            sumOeste = 0;
+                            sb.AppendFormat("Piso {0}, Total ocupantes lado Este = {1} \n", piso, sumEste);
+                            sumEste = 0;
                         }
                     }
                 }
@@ -127,5 +123,5 @@ namespace Libreria_de_clases
             }
             return sb.ToString();
         }
-	}
+    }
 }

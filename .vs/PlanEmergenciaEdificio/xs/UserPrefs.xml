@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{CFADF732-86B0-44F4-8CCC-EB14DFAED183}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Libreria_de_clases/Edificio.cs">
     <Files>
-      <File FileName="Libreria_de_clases/Edificio.cs" Line="25" Column="13" />
-      <File FileName="PlanEmergencia/Program.cs" Line="26" Column="45" />
+      <File FileName="Libreria_de_clases/Edificio.cs" Line="68" Column="57" />
+      <File FileName="PlanEmergencia/Program.cs" Line="20" Column="67" />
       <File FileName="Libreria_de_clases/Testing.cs" Line="7" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
